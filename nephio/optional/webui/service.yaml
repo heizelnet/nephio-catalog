@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/name: nephio-webui
     app.kubernetes.io/instance: nephio-webui
   annotations:
-    metallb.universe.tf/loadBalancerIPs: 10.10.0.132
+    metallb.universe.tf/loadBalancerIPs: 10.10.0.212
 spec:
   type: LoadBalancer
   selector:
